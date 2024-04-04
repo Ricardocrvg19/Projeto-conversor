@@ -1,0 +1,71 @@
+if (currencySelect.value == "real") {
+        currencyValueConverted.innerHTML = new Intl.NumberFormat("pt-BR", {
+            style: "currency", currency: "BRL"
+        }).format(inputCurrencyValue / realToday)
+    }
+
+    if (currencySelect.value == "dolar" ) {
+        currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency", currency: "USD"
+        }).format(inputCurrencyValue / dolarToday)
+    }
+
+    if (currencySelect.value == "euro") {
+        currencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", {
+            style: "currency", currency: "EUR"
+        }).format(inputCurrencyValue / euroToday)
+    }
+
+    if (currencySelect.value == "libra") {
+        currencyValueConverted.innerHTML = new Intl.NumberFormat("en-GB", {
+            style: "currency", currency: "GBP"
+        }).format(inputCurrencyValue / libraToday)
+    }
+
+    if (currencySelect.value == "bitcoin") {
+        currencyValueConverted.innerHTML = new Intl.NumberFormat("en", {
+            style: "currency", currency: "BTC"
+        }).format(inputCurrencyValue / bitcoinToday)
+    }
+
+    if (selectMoedas.value == "real-1") {
+        currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-BR", {
+            style: "currency", currency: "BRL"
+        }).format(inputCurrencyValue)
+    }
+
+
+    if (selectMoedas.value == "dolar-1") {
+        currencyValueToConvert.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency", currency: "USD"
+        }).format(inputCurrencyValue ) 
+    }
+
+    if (selectMoedas.value == "euro-1") {
+        currencyValueToConvert.innerHTML = new Intl.NumberFormat("de-DE", {
+            style: "currency", currency: "EUR"
+        }).format(inputCurrencyValue * euroToday)
+    }
+
+    if (selectMoedas.value == "libra-1") {
+        currencyValueToConvert.innerHTML = new Intl.NumberFormat("en-GB", {
+            style: "currency", currency: "GBP"
+        }).format(inputCurrencyValue * libraToday)
+    }
+
+    if (selectMoedas.value == "net") {
+        currencyValueToConvert.innerHTML = new Intl.NumberFormat("en", {
+            style: "currency", currency: "BTC"
+        }).format(inputCurrencyValue * bitcoinToday)
+    }
+-----------------------------------------------------------------------------
+
+   0,000015
+
+   ------------------------------------
+
+     if (currencySelect.value == "dolar" && selectMoedas.value == "real-1") {
+        currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency", currency: "USD"
+        }).format(inputCurrencyValue / dolarToday)
+    }

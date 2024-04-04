@@ -1,0 +1,115 @@
+* {
+    font-family: "Bungee Inline", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background: url(https://www.plastico.com.br/wp-content/uploads/2012/12/cambio.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    width: 300px;
+    font-size: 23px;
+    margin: 0 auto;
+    display: block;
+}
+
+h3 {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* .moedas{ 
+    visibility: hidden;
+}*/
+main {
+    width: 375px;
+    border-radius: 20px;
+    background: rgba(244, 244, 244, 1);
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+
+}
+
+label {
+    color: rgb(16, 16, 16);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select,
+input {
+    width: 100%;
+    gap: 0px;
+    border: 1px solid #060a10;
+    border-radius: 4px;
+    opacity: 0px;
+    color: rgb(3, 179, 243);
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+::placeholder {
+    color: rgb(3, 179, 243);
+    font-weight: 400;
+}
+
+button {
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    background: #060a10;
+    color: rgb(3, 179, 243);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    margin-top: 36px;
+    border: 1px solid #060a10;
+    border-radius: 20px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.currency {
+    color: #060a10;
+    font-size: 15px;
+}
+
+
+.currency-value, .currency-value-to-convert{
+    color: #060a10;
+    font-size: 20px;
+    font-weight: 700;
+}
