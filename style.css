@@ -10,6 +10,7 @@ body {
     background: url(https://www.plastico.com.br/wp-content/uploads/2012/12/cambio.jpg);
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
 }
 
 h1 {
