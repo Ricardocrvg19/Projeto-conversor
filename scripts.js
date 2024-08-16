@@ -12,7 +12,7 @@ async function convertValues() {
     const currencyValueConverted = document.querySelector(".currency-value") // Outras moedas
 
     const realToday = 1
-    const libraToday = 6.5
+    
 
     const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL").then(response => response.json())
 
@@ -20,6 +20,7 @@ async function convertValues() {
     const dolarToday = data.USDBRL.high
     const euroToday = data.EURBRL.high
     const bitcoinToday = data.BTCBRL.high
+    const libraToday = data.GBPBRL.high
   
 
     if (currencySelect.value == "real") {
