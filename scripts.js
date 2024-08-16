@@ -14,7 +14,7 @@ async function convertValues() {
     const realToday = 1
     const libraToday = 6.5
 
-    const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then(response => response.json())
+    const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,GBP-BRL").then(response => response.json())
 
 
     const dolarToday = data.USDBRL.high
