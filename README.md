@@ -38,4 +38,4 @@ And do the convertion :smiley::smiley:</h4>
 <br>
 <h2> SEE MORE ON <a href="https://www.linkedin.com/in/ricardo-martins-r2730/">My-Linkedin</a>:sunglasses:</h2>
 <br>
-<h5>The values to convert is NOT TRUE ! </h5>
+<h5>The values to convert is updated every single day ! </h5>
